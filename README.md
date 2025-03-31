@@ -2,7 +2,7 @@
 =======
 # Language Model API Tutorial Sample
 
-This is the source code for the [Language Model API Tutorial](). It demonstrates how to use the GitHub Copilot Language Model API to build an extension that annotates your code with inline tutoring tips.
+This is a code for the trying out Language Model API. It demonstrates how to use the GitHub Copilot Language Model API to build an extension that annotates your code with inline tutoring tips.
 
 ## Demo
 ![Link to demo from docs]()
