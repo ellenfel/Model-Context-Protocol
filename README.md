@@ -1,21 +1,62 @@
-# Model-Context-Protocol
-=======
-# Language Model API Tutorial Sample
+# Model Context Protocol (MCP) Server
 
-This is a code for the trying out Language Model API. It demonstrates how to use the GitHub Copilot Language Model API to build an extension that annotates your code with inline tutoring tips.
+A basic implementation of a Model Context Protocol server for educational purposes. This server demonstrates the core concepts of MCP and how to implement them in practice using Python.
 
-## Demo
-![Link to demo from docs]()
+## Features
 
-### Running the sample
+- WebSocket-based communication using FastAPI and WebSockets
+- Basic MCP message handling with Pydantic models
+- Support for model context management
+- Simple client-server interaction
+- Async/await support for better performance
 
-- Run `npm install` in terminal to install depedencies
-- Run the `Run Extension` target in the Debug View. This will:
-    - Start a task `npm: watch` to compile the client code
-    - Run the extension in a new VS Code window.
-- Open a folder in the new VS Code window.
-- Open a code file.
-- Run the `Toggle Tutor Annotations` command from the command palette.
+## Getting Started
 
+1. Create a virtual environment (recommended):
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
 
-add rest rpc soap grahql as well
+2. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+3. Start the development server:
+```bash
+python -m src.server
+```
+
+4. Run the example client:
+```bash
+python examples/basic_usage.py
+```
+
+## Project Structure
+
+```
+src/
+├── server.py          # Main server implementation
+├── types/            # TypeScript type definitions
+│   └── mcp.py        # MCP protocol types using Pydantic
+└── examples/         # Example implementations
+    └── basic_usage.py # Basic client example
+```
+
+## MCP Protocol Overview
+
+The Model Context Protocol (MCP) is a communication protocol designed for AI model interactions. This implementation includes:
+
+- Message format handling using Pydantic models
+- Context management
+- Basic protocol operations
+- Async/await support for better performance
+
+## Key Differences from TypeScript Version
+
+1. Uses FastAPI instead of Express
+2. Implements async/await for better performance
+3. Uses Pydantic for data validation and serialization
+4. More Pythonic code structure and patterns
+MIT
