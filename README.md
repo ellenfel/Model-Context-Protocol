@@ -1,6 +1,4 @@
-<<<<<<< HEAD
 # Model-Context-Protocol
-Model Context Protocol PoC Project
 =======
 # Language Model API Tutorial Sample
 
@@ -18,4 +16,3 @@ This is the source code for the [Language Model API Tutorial](). It demonstrates
 - Open a folder in the new VS Code window.
 - Open a code file.
 - Run the `Toggle Tutor Annotations` command from the command palette.
->>>>>>> d4fa3ee (initilized)
