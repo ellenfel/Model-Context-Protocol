@@ -16,3 +16,6 @@ This is a code for the trying out Language Model API. It demonstrates how to use
 - Open a folder in the new VS Code window.
 - Open a code file.
 - Run the `Toggle Tutor Annotations` command from the command palette.
+
+
+add rest rpc soap grahql as well
